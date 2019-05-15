@@ -3,12 +3,13 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
-import StockContainer from './components/StockContainer/StockContainer';
+import CreateStock from './components/CreateStock/CreateStock';
+
 
 const My404 = () => {
   return (
     <div>
-      You are lost
+      Error
     </div>
   )
 }
@@ -19,8 +20,8 @@ const App = () => {
       <Header />
       <Switch>
         <Route exact path="/" component={ Login } />
-        <Route exact path="/stocks" component={ StockContainer } />
-        <Route exact={My404} />
+        <Route exact path="/stocks" component={ CreateStock } />
+        <Route render={My404} />
       </Switch>
     </main>
   )
