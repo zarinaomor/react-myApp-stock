@@ -66,28 +66,28 @@ class StockContainer extends Component {
                     (this.state.chart.length > 0)
                     && 
                     <div>
-                <StockInfo 
-                    symbol={this.state.symbol} 
-                    close={this.state.close} 
-                    previousClose={this.state.previousClose} 
-                    change={this.state.change} 
-                    changePercent={this.state.changePercent}
-                />
-                    <div className="charts">
-                <ChartLineGraph
-                    title={this.state.symbol}
-                    chartLabels={chartDates}
-                    chartData={chartCloses}
-                />
+                        <StockInfo 
+                            symbol={this.state.symbol} 
+                            close={this.state.close} 
+                            previousClose={this.state.previousClose} 
+                            change={this.state.change} 
+                            changePercent={this.state.changePercent}
+                        />
+                        <div className="charts">
+                            <ChartLineGraph
+                                title={this.state.symbol}
+                                chartLabels={chartDates}
+                                chartData={chartCloses}
+                            />
+                        </div>
+                            <ChartTable chart={this.state.chart} /> 
+                        <div>
+                        <h2>{ !!companyName && 'News about '+companyName }</h2>
+                            <NewsList news={this.state.news} />
+                        </div>
                     </div>
-                <ChartTable chart={this.state.chart} /> 
-                <div>
-                <h2>{ !!companyName && 'News about '+companyName }</h2>
-                <NewsList news={this.state.news} />
-                </div>
-                </div>
-            }
-          </div>
+                }
+            </div>
         )
     }
 }

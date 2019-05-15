@@ -1,22 +1,24 @@
 import React from 'react';
 
 const StockItem = ({
-    date,
-    open,
-    high,
-    low,
-    close
+    symbol,
+    lastSalePrice,
+    lastSaleSize,
+    marketPercent,
+    volume
 }) => {
     return (
         <tr>
-            <th>{date}</th>
-            <td>{open}</td>
-            <td>{high}</td>
-            <td>{low}</td>
-            <td>{close}</td>
+            <th>{symbol}</th>
+            <td>{lastSalePrice}</td>
+            <td>{lastSaleSize}</td>
+            <td>{marketPercent}</td>
+            <td>{volume}</td>
+            {/* <button onClick={this.props.deleteStock.bind(null, stocks._id)}>Delete</button> */}
         </tr>
+
     )
 }
 
 
-export default StockItem ;
+export default StockItem;
