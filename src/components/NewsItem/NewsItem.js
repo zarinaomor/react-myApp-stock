@@ -12,7 +12,8 @@ const NewsItem = ({
         <div>
             <a href={url}> <h3>{ headline }</h3> </a>
             <div>
-                Source: <em>{ source }</em>, { datetime.substring(0,10) }
+                Source: <em>{ source }</em>, 
+                { datetime.substring(0,10) }
             </div>
             <div>
                 <p>
