@@ -45,9 +45,21 @@ class Home extends Component {
     render(){
         return(
             <div>
+                <div>
                 <p><Link to="/login" className='active'>Login</Link></p>
                 <p><Link to="/register" className='active'>Sign Up</Link></p>
+                </div>
                 <h1 className="home-title">React Stock Market</h1>
+                <div class="image">
+                    <img src="https://d2ue93q3u507c2.cloudfront.net/assets-about/a4a80e964c803ddb7a9fc7459e0eac01.png" alt="#" height="400px" />
+                </div>
+                <div className="home-text">
+                    <h2>Invest Commission-Free</h2>
+                    <p>Invest in stocks, ETFs,<br/>
+                     options <br/>
+                     all commission-free, right from <br/>
+                     your phone or desktop.</p>
+                </div>
                 <div class="left"> 
                 <h3>Top Movers</h3>
                 <table className="table" border="1">
@@ -74,9 +86,7 @@ class Home extends Component {
                 </div>
                 
                 {/* <StockItem deleteStock={this.deleteStock} /> */}
-                <div class="right">
-                    <img src="https://d2ue93q3u507c2.cloudfront.net/assets-about/a4a80e964c803ddb7a9fc7459e0eac01.png" alt="#"/>
-                </div>
+                
                 
         </div>
         )

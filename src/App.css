@@ -8,18 +8,18 @@
     max-width: 40rem;
     margin: auto;
   }
-  /* h1 {
+  h1 {
     animation: colorchange 10s infinite; 
   }
   
   @keyframes colorchange
   {
-    0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: blue;}
-    75%  {color: green;}
-    100% {color: red;}
-  } */
+    0%   {color: #4286f4;}
+    25%  {color: #e3ef02;}
+    50%  {color:#7112ed;}
+    75%  {color: #ef0758;}
+    100% {color:#ef0758;}
+  }
 
   .home-title {
     text-align: center;
@@ -28,9 +28,14 @@
     padding: 20px;
     font-size: 50px;
   }
+  h2 {
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
   h3 {
     padding-bottom: 20px;
     margin-left: 30px;
+    text-align: center;
   }
   h4 {
     text-align: center;
@@ -39,9 +44,9 @@
     text-align: center;
   }
   
-  /* .login {
-    margin-top: 200px;
-  } */
+  .login {
+    text-align: center;
+  }
 .search {
   margin-top: 50px;
   text-align: center;
@@ -64,18 +69,16 @@
 
 .news {
   font-size: 13px;
-  /* border: 1px solid black; */
   width: 800px;
   margin: auto;
 }
-.right {
- 
-  z-index: 5;
-  position: absolute;
+.home-text {
+  display: inline-block;
+  /* letter-spacing: -0.02em;
+  line-height: 49px; */
+   margin-left: 100px;
 }
-.left {
- text-align: center;
-  z-index: 1;
-  position: absolute;
- 
-} 
+.image {
+  display: inline-block;
+}
+
