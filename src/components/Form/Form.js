@@ -14,13 +14,16 @@ class Form extends Component {
     }
     submitHandler = (e)=>{
         e.preventDefault()
-        this.props.getStock(this.state.stock)
+        this.props.getStock(this.state.stock);
+        this.setState({
+            stock: ''
+        })
     }
     render() {
         return (
             <div className="search">
                 <form onSubmit={this.submitHandler}>
-                    <input type="text" name="stock" placeholder="Enter Symbol" value={this.state.stock} onChange={this.changeHandler}/>
+                    <input id="mainInput" type="text" name="stock" placeholder="Enter Symbol" value={this.state.stock} onChange={this.changeHandler}/>
                     <button type="submit">Get Stock</button>
                 </form>
             </div>

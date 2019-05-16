@@ -50,7 +50,6 @@ class StockContainer extends Component {
 
     render() {
         console.log(this.state.chart)
-        const companyName = !!this.state.quote && this.state.quote.companyName
         const chartCloses = []
         const chartDates = []
         this.state.chart.map(chartItem => {
@@ -82,7 +81,7 @@ class StockContainer extends Component {
                         </div>
                             <ChartTable chart={this.state.chart} /> 
                         <div>
-                        <h2>{ !!companyName && 'News about '+companyName }</h2>
+                        <h2 className="news-title">Latest News</h2>
                             <NewsList news={this.state.news} />
                         </div>
                     </div>

@@ -9,7 +9,7 @@
     margin: auto;
   }
   h1 {
-    animation: colorchange 10s infinite; 
+    animation: colorchange 3s infinite; 
   }
   
   @keyframes colorchange
@@ -17,8 +17,8 @@
     0%   {color: #4286f4;}
     25%  {color: #e3ef02;}
     50%  {color:#7112ed;}
-    75%  {color: #ef0758;}
-    100% {color:#ef0758;}
+    75%  {color: #6ae9f7;}
+    100% {color: #69f461;}
   }
 
   .home-title {
@@ -37,28 +37,24 @@
     margin-left: 30px;
     text-align: center;
   }
-  h4 {
-    text-align: center;
-  }
-  h5 {
+  h4 h5 {
     text-align: center;
   }
   
   .login {
     text-align: center;
   }
+
 .search {
   margin-top: 50px;
   text-align: center;
   padding-bottom: 50px;
 }
 .home-table {
- 
   margin-left: 40px;
 }
 .item {
-  margin-left: 50px;
-  
+  margin-left: 200px; 
 }
 .item-table {
   border: 1px solid white;
@@ -74,11 +70,16 @@
 }
 .home-text {
   display: inline-block;
-  /* letter-spacing: -0.02em;
-  line-height: 49px; */
-   margin-left: 100px;
+  margin-left: 100px;
 }
 .image {
   display: inline-block;
 }
-
+.news-title {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+#mainInput {
+  width: 350px;
+}
