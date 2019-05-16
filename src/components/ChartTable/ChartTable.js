@@ -4,7 +4,7 @@ import ChartItem from '../ChartItem/ChartItem';
 
 const ChartTable = ({ chart }) => (
     <div>
-        <table className="table">
+        <table className="item-table">
             <thead>
                 <tr>
                     <th>Date</th>

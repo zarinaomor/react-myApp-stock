@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import StockItem from '../StockItem/StockItem';
 import { Link } from 'react-router-dom';
 
+
+
 class Home extends Component {
     state={
         allStocks:[]
@@ -43,11 +45,12 @@ class Home extends Component {
     render(){
         return(
             <div>
+                {/* <img src={logo} alt="Logo" />; */}
                 <p><Link to="/login" className='active'>Login</Link></p>
                 <p><Link to="/register" className='active'>Sign Up</Link></p>
-                <h1>React Stock Market</h1>
-                <h2>100 Most Popular</h2>
-                <table className="table">
+                <h1 className="home-title">React Stock Market</h1>
+                <h3>100 Most Popular</h3>
+                <table className="home-table">
                     <thead>
                         <tr>
                             <th>Symbol</th>
@@ -59,7 +62,7 @@ class Home extends Component {
                     </thead>
                     <tbody>
                     {this.state.allStocks.map((s, i) => {
-                            return s.change < 0 ? (
+                            return s < 0 ? (
                                 <StockItem key={'stockTable' + i} {...s} />  
                             ) : (
                                 <StockItem key={'stockTable' + i} {...s} />
@@ -68,6 +71,7 @@ class Home extends Component {
                     </tbody>
                 </table>
                 <StockItem deleteStock={this.deleteStock} />
+                {/* <img class="css-1kfsey7" src="https://d2ue93q3u507c2.cloudfront.net/assets-about/a4a80e964c803ddb7a9fc7459e0eac01.png" srcset="https://d2ue93q3u507c2.cloudfront.net/assets-about/a4a80e964c803ddb7a9fc7459e0eac01.png, https://d2ue93q3u507c2.cloudfront.net/assets-about/6b2e66f81aef0f0d7dbeef37392e0eca.png 2x"> */}
         </div>
         )
     }

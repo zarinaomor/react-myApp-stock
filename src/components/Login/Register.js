@@ -46,34 +46,36 @@ class Register extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <label>
-                    First Name:
-                    <input type="text" name="firstName" placeholder="First Name" onChange={this.handleChange} value={this.state.firstName}/>
-                </label>
-                <br />
-                <label>
-                    Last Name:
-                    <input type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange} value={this.state.lastName}/>
-                </label>
-                <br />
-                <label>
-                    email:
-                    <input type="text" name="email" placeholder="email" onChange={this.handleChange} value={this.state.email}/>
-                </label>
-                <br />
-                <label>
-                    Username:
-                    <input type="text" name="username" placeholder="username" onChange={this.handleChange} value={this.state.username}/>
-                </label>
-                <br />
-                <label>
-                    Password: 
-                    <input text="password" name="password" placeholder="password" onChange={this.handleChange} value={this.state.password}/>
-                </label>
-                <br />
-                <button type="submit">Register</button>
+           <div className="login">
+                <form onSubmit={this.handleSubmit}>
+                    <label>
+                        First Name:
+                        <input type="text" name="firstName" placeholder="First Name" onChange={this.handleChange} value={this.state.firstName}/>
+                    </label>
+                    <br />
+                    <label>
+                        Last Name:
+                        <input type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange} value={this.state.lastName}/>
+                    </label>
+                    <br />
+                    <label>
+                        email:
+                        <input type="text" name="email" placeholder="email" onChange={this.handleChange} value={this.state.email}/>
+                    </label>
+                    <br />
+                    <label>
+                        Username:
+                        <input type="text" name="username" placeholder="username" onChange={this.handleChange} value={this.state.username}/>
+                    </label>
+                    <br />
+                    <label>
+                        Password: 
+                        <input text="password" name="password" placeholder="password" onChange={this.handleChange} value={this.state.password}/>
+                    </label>
+                    <br />
+                    <button type="submit">Register</button>
             </form> 
+           </div>
         )
     }
 }

@@ -65,7 +65,7 @@ class StockContainer extends Component {
                 {
                     (this.state.chart.length > 0)
                     && 
-                    <div>
+                    <div className="items">
                         <StockInfo 
                             symbol={this.state.symbol} 
                             close={this.state.close} 

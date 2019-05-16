@@ -1,9 +1,59 @@
+    * {
+      background-color: #1b1b1d;
+      color: white;
+    
+    }
     .charts {
-    min-width: 30rem;
-    max-width: 30rem;
+    min-width: 40rem;
+    max-width: 40rem;
+    margin-left: 50px;
+    
+    
   }
 
-  .table {
-    border: 1px solid black;
+  .home-title {
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
+    padding: 20px;
+    font-size: 50px;
   }
+  h3 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .table {
+    color: pink;
+  }
+  .login {
+    margin-top: 200px;
+  }
+.search {
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.chart-table {
+  border: 1px solid white;
+}
+.item {
+  margin-left: 50px;
   
+}
+.item-table {
+  border: 1px solid white;
+  width: 500px;
+  font-size: 13px;
+  margin-left: 50px;
+}
+
+.news {
+  font-size: 13px;
+  border: 1px solid black;
+  width: 600px;
+  text-align: center;
+}
+.home-table {
+  width: 500px;
+ 
+}

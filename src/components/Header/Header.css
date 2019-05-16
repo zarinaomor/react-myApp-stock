@@ -1,3 +1,7 @@
 .active {
-    color: red;
+    color: white;
+    float: right;
+    font-size: 20px;
+    display: inline;
+    padding: 20px;
 }
