@@ -7,7 +7,6 @@ const StockItem = ({
     marketPercent,
     volume,
     _id,
-    deleteStock
 }) => {
     return (
         <tr>
