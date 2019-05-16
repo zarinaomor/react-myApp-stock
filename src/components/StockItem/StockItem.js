@@ -5,7 +5,9 @@ const StockItem = ({
     lastSalePrice,
     lastSaleSize,
     marketPercent,
-    volume
+    volume,
+    _id,
+    deleteStock
 }) => {
     return (
         <tr>
@@ -14,7 +16,7 @@ const StockItem = ({
             <td>{lastSaleSize}</td>
             <td>{marketPercent}</td>
             <td>{volume}</td>
-            {/* <button onClick={this.props.deleteStock.bind(null, stocks._id)}>Delete</button> */}
+            {/* <button onClick={deleteStock.bind(null, _id)}>Delete</button> */}
         </tr>
 
     )
