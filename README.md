@@ -19,7 +19,7 @@ Link:
 
 **Wireframe**
 
-
+<img width="997" alt="Screen Shot 2019-05-16 at 6 42 25 PM" src="https://user-images.githubusercontent.com/23328507/57897603-776aba00-780a-11e9-8573-511dc103a814.png">
 
 
 
@@ -43,4 +43,3 @@ Thanks to Mike & Clayton.
 - User can serach by the name of the stock not only symbol.
 - Create shopping cart to add/remove stocks 
 - User can view weekly, monthly, yearly changes on the graph.
-
