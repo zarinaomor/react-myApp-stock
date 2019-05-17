@@ -10,7 +10,7 @@ Link:
 
 **User experience**
 
-- User can view today's top 10 stocks on main home page.
+- User can view today's top 50 stocks on main home page.
 - User can search for stocks using symbols
 - User can view a graph and table displaying the recent trend lines for each stock.
 - User can view news related to the searched stock
