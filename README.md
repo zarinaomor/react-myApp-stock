@@ -1,17 +1,16 @@
 
-**### REACT STOCK APP**
+**REACT STOCK APP**
 
-**SEI Project - 3.**
 
 **Overview**
 
-SEI Project One. The goal is to build a full stack application using Node as a back end and React as a front-end language.
+SEI Project 3. The goal is to build a full stack application using Node as a back end and React as a front-end language.
 
 Link: 
 
 **User experience**
 
-- User can view Today's top 10 stocks on main home page.
+- User can view today's top 10 stocks on main home page.
 - User can search for stocks using symbols
 - User can view a graph and table displaying the recent trend lines for each stock.
 - User can view news related to the searched stock
