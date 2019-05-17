@@ -23,7 +23,7 @@ Link:
 
 
 
-Thanks to Mike & Clayton.
+Special thanks to Mike & Clayton.
 
 
 **Technologies**
@@ -34,7 +34,6 @@ Thanks to Mike & Clayton.
 - Node.js
 - Express
 - Javascript
-- HTML
 - CSS
 
 **Future Implementations**
