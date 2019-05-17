@@ -1,5 +1,5 @@
 
-**REACT STOCK APP**
+**REACT STOCK MARKET**
 
 
 **Overview**
