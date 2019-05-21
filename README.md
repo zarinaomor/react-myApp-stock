@@ -6,7 +6,7 @@
 
 SEI Project 3. The goal is to build a full stack application using Node as a back end and React as a front-end language.
 
-Link: 
+Link: https://my-react-stock-app.herokuapp.com/
 
 **User experience**
 
