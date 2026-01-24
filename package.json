@@ -12,7 +12,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.0",
-    "semantic-ui": "^2.4.2"
+    "semantic-ui": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
